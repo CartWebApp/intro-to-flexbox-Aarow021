@@ -27,30 +27,58 @@
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
   border:10px solid goldenrod;
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  height: 100vh;
+  flex-flow: row wrap;
 }
 
 [class^="box"] {
-    
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
+.full {
+  width: 98%;
+  height: 32.5vh;
+}
+
+.half {
+  width: 48.5%;
+  height: 24.5vh;
+}
+
+.quarter {
+  width: calc(95%/4);
+  height: 19.6vh;
+}
+
+.third {
+  width: 32%;
+  height: 16.4vh;
+}
+
+
 .box1 {
-    
+  
 }
 
 .box2 {
-
+  
 }
 .box3 {
-
+  
 }
 .box4 {
-
+  
 }
 .box5 {
-
+  
 }
 .box6 {
-
+  
 }
 .box7 {
 
@@ -62,5 +90,4 @@
 
 }
 .box10 {
-
 }
