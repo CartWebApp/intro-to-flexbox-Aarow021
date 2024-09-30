@@ -38,6 +38,13 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    transition-duration: 250ms;
+    transition-property: filter;
+    transition-timing-function: ease;
+}
+
+[class^="box"]:hover {
+  filter: brightness(75%);
 }
 
 .full {
